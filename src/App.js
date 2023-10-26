@@ -1,14 +1,15 @@
-import Header from './header';
-import Maincontent from './main-content';
-import Footer from './footer';
-function App(){
-  return(
+function App() {
+  return (
     <div>
-      <Header />
-      <Maincontent />
-      <Footer />
+      <h1 className="checkbox">this is a todo list</h1>
+      <input type="checkbox" />
+      <p>this is a check box check me </p>
+      <input type="checkbox" />
+      <p>this is a check box check me </p>
+      <input type="checkbox" />
+      <p>this is a check box check me </p>
     </div>
   )
 }
 
-export default App;
+export default App
