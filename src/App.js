@@ -1,13 +1,19 @@
 function App() {
+  const date = new Date()
+  const hour = date.getHours()
+  let timeOfDay
+
+  if (hour < 12) {
+    timeOfDay = 'Morning'
+  } else if (hour >= 12 && hour < 17) {
+    timeOfDay = 'Afternoon'
+  } else {
+    timeOfDay = 'Evening'
+  }
+
   return (
     <div>
-      <h1 className="checkbox">this is a todo list</h1>
-      <input type="checkbox" />
-      <p>this is a check box check me </p>
-      <input type="checkbox" />
-      <p>this is a check box check me </p>
-      <input type="checkbox" />
-      <p>this is a check box check me </p>
+      <h1>good {timeOfDay}</h1>
     </div>
   )
 }
