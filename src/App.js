@@ -6,14 +6,14 @@ function App() {
   if (hour < 12) {
     timeOfDay = 'Morning'
   } else if (hour >= 12 && hour < 17) {
-    timeOfDay = 'Afternoon'
+    timeOfDay = 'afternoon'
   } else {
     timeOfDay = 'Evening'
   }
 
   return (
     <div>
-      <h1>good {timeOfDay}</h1>
+      <h1>good {timeOfDay} it's currently { hour % 12} O'clock</h1>
     </div>
   )
 }
