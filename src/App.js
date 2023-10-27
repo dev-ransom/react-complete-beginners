@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div>
-      <h1>good {timeOfDay} it's currently { hour % 12} O'clock</h1>
+      <h1 style={{ color: 'blue', background: 'red', padding: '20px'}}>good {timeOfDay} it's currently { hour % 12} O'clock</h1>
     </div>
   )
 }
