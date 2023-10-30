@@ -1,14 +1,14 @@
 import React from 'react'
-
 function ContactCard(props) {
-  return (
-    <div className="contact-card">
-          <img alt="not found" src={ props.contact.imgUrl} />
-          <h3>{props.contact.name }</h3>
-          <p>Phone: { props.contact.phone}</p>
-          <p>Email: { props.contact.email}</p>
-    </div>
-  )
+    
+    return (
+        <div className='contact-card'>
+            <img src={props.contact.imgUrl} alt="" />
+            <h3>{props.contact.name} </h3>
+            <h4>phone : {props.contact.phone} </h4>
+            <p>email :{props.contact.email}</p>
+        </div>
+    )
 }
 
-export default ContactCard
+export default ContactCard  
