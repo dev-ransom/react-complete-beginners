@@ -13,45 +13,28 @@ code {
     monospace;
 }
 
+.contacts {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
 
-.todo-list{
-  width: 70%;
-  margin: 100px auto;
-  border: 1px solid  #efefef;
+.contact-card {
+  width: 800px;
+  margin: 10px 20px;
+  border: 2px solid #fffeee;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding: 20px;
   border-radius: 20px;
-   box-shadow:
-    /* The top layer shadow */
-        0 1px 1px rgba(0,0,0,0.15),
-            /* The second layer */
-        0 10px 0 -5px #eee,
-            /* The second layer shadow */
-        0 10px 1px -4px rgba(0,0,0,0.15),
-            /* The third layer */
-        0 20px 0 -10px #eee,
-            /* The third layer shadow */
-        0 20px 1px -9px rgba(0,0,0,0.15);
-        padding: 30px;
+  transition: all 0.5s ease;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 
-
-.todo-item{
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  border-bottom: 1px solid #00000032;
-  width: 70%;
-  padding: 10px;
-  font-size: 20px;
+.contact-card:hover {
+  transform: translateY(-5%);
 }
-
-input[type=checkbox]{
-  margin-right: 20px;
-  font-size: 30px;
-}
-
-input[type=checkbox]:focus{
-  outline: 0;
+.contact-card img {
+  width: 100%;
 }
