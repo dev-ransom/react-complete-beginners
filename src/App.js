@@ -1,38 +1,32 @@
-import ContactCard from './ContactCard'
+import Joke from './Joke'
 function App() {
   return (
-    <div className="contacts">
-      <ContactCard
-        contact={{
-          imgUrl: 'http://placekitten.com/200/100',
-          name: 'Mr pharoah',
-          phone: '(212) 555-1234',
-          email: 'mr.whiskaz@catnap.meow',
-        }}
+    <div className="Jokes">
+      <Joke punchLine="It’s hard to explain puns to kleptomaniacs because they always take things literally." />
+
+      <Joke
+        question="What's the best thing about Switzerland?"
+        punchLine="I don't know, but the flag is a big plus!" 
       />
-      <ContactCard
-        contact={{
-          imgUrl: 'http://placekitten.com/400/200',
-          name: 'Mr solomon',
-          phone: '(212) 555-899',
-          email: 'mr.solowiz@won.muee',
-        }}
+
+      <Joke
+        question="Did you hear about the mathematician who's afraid of negative numbers?"
+        punchLine="He'll stop at nothing to avoid them!"
       />
-      <ContactCard
-        contact={{
-          imgUrl: 'http://placekitten.com/200/100',
-          name: 'Mr Moses',
-          phone: '(212) 666-7487',
-          email: 'mr.red@sea.meow',
-        }}
+
+      <Joke
+        question="Hear about the new restaurant called Karma?"
+        punchLine="There’s no menu: You get what you deserve."
       />
-      <ContactCard
-        contact={{
-          imgUrl: 'http://placekitten.com/400/200',
-          name: 'Mr Elijah',
-          phone: '(212) 444-7383',
-          email: 'mr.fihss@catnap.rat',
-        }}
+
+      <Joke
+        question="Did you hear about the actor who fell through the floorboards?"
+        punchLine="He was just going through a stage."
+      />
+
+      <Joke
+        question="Did you hear about the claustrophobic astronaut?"
+        punchLine="He just needed a little space."
       />
     </div>
   )
