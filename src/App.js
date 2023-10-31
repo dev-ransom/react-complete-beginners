@@ -1,14 +1,14 @@
+import React from 'react'
 import Joke from './Joke'
-import jokesData from './jokesData';
-function App() {
 
-  const jokeComponents = jokesData.map(joke => <Joke key={joke.id} question={joke.punchLine} punchLine={joke.punchLine} />)
+function App() {
   return (
-    <div className="Jokes">
-      {jokeComponents}
+    <div>
+      <Joke />
     </div>
   )
 }
 
 export default App
 
+  

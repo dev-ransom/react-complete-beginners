@@ -14,14 +14,15 @@ code {
 }
 
 
-.Jokes{
-  background-color: #fff;
-  width: 70%;
+.circle{
+  background: white;
+  width: 50%;
   text-align: center;
   margin: 0 auto;
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 50px;
 }
 
-hr{
-  width: 70%;
-  text-align: center;
-}
+
+
