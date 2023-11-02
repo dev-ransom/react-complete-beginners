@@ -1,14 +1,16 @@
 import React from 'react'
-import Joke from './Joke'
+import Header from './Header'
+import MainContent from './MainContent'
+import Footer from './Footer'
 
 function App() {
   return (
-    <div>
-      <Joke />
+    <div className="flex flex-col h-screen">
+      <Header />
+      <MainContent />
+      <Footer />
     </div>
   )
 }
 
 export default App
-
-  
