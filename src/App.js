@@ -5,7 +5,7 @@ import Footer from './Footer'
 
 function App() {
   return (
-    <div className="flex flex-col h-screen">
+    <div className="flex flex-col h-screen bg-black text-white shadow-lg">
       <Header />
       <MainContent />
       <Footer />
