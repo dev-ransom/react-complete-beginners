@@ -4,4 +4,17 @@
 @import 'tailwindcss/utilities';
 
 
+/* style for bullet  */
+.custom-list-marker::marker {
+  content: "•"; /* Custom bullet character */
+  color: rgb(103 232 249 / var(--tw-text-opacity)); /* Custom bullet color */
+  font-size: 2rem; /* Custom bullet size */
+}
 
+
+/* bg */
+ .bg-image {
+  background-image: url(./asset/Group\ \(1\).png); 
+  background-repeat: no-repeat;
+  background-position: right center;
+} 

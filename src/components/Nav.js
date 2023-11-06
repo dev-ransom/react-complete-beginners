@@ -2,7 +2,7 @@ import React from 'react'
 import Image from '../asset/react-logo.png'
 export default function Nav() {
   return (
-    <div className="w-[550px] h-[91px] bg-neutral-800 flex font-['Inter']">
+    <div className="w-[550px] h-[91px] bg-neutral-800 flex">
       <img
         src={Image}
         alt=""
